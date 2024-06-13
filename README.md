@@ -19,3 +19,7 @@ This is Github repository of my learnings in different tech, softwares, database
 [ECS Study Guide](Containers/ECS/ECS.md)  
 [EKS Study Guide](Containers/EKS/EKS.md)  
 [Service Mesh Istio Study Guide](Containers/Istio/Istio.md)
+
+## Best Practices
+[Tech Lingos](Best%20Practices/Tech%20Lingos.md)  
+[Tech Examples](Best%20Practices/Tech%20Examples/Tech-Examples.md)
