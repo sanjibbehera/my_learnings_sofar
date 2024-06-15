@@ -22,6 +22,9 @@
 - Network Interface Card (NIC): A NIC is a hardware component that connects a computer to a network. It provides the physical interface for network connectivity and handles data conversion.
 - Firewall: A firewall is a network security device that monitors and controls incoming and outgoing network traffic based on predetermined security rules.
 
+## OSI Model Vs TCP/IP Model
+![OSI Model Model Vs TCP/IP Model](Images/OSI-vs.-TCPIP-models.webp)
+
 ## Network Topology
 The **Network Topology** is the layout arrangement of the different devices in a network.
 Examples:
