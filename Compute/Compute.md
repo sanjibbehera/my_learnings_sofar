@@ -1,0 +1,2 @@
+## What is Compute in AWS Cloud Computing?
+In AWS Cloud computing, “**Compute**” refers to the various services and resources provided by AWS to process data and perform computational tasks. AWS offers a broad range of compute services to cater to different use cases, ranging from simple applications to complex high-performance computing workloads.

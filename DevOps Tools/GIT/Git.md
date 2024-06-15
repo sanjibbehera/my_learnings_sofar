@@ -1,0 +1,2 @@
+## What is Git?
+It is a distributed version control system that allows multiple people to work on a project simultaneously without interfering with each other’s changes. It is widely used for source code management in software development and has become the standard for version control systems.
