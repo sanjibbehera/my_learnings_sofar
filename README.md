@@ -19,6 +19,7 @@ This is Github repository of my learnings in different tech, softwares, database
 [GitOps](Best%20Practices/GitOps/GitOps.md)  
 [Protocols](Best%20Practices/Protocols/Protocols.md)  
 [Tech Lingos](Best%20Practices/Tech%20Lingos.md)  
+[Linux OS](Best%20Practices/OS/LinuxOS.md)  
 
 ## AWS Cloud Computing
 [Application Integration in AWS](AWS%20Cloud%20Computing/AWS%20Application%20Integration.md)  
@@ -79,9 +80,15 @@ This is Github repository of my learnings in different tech, softwares, database
 [ER/Studio](Data%20Modeling/ERStudio/ERStudio.md)  
 
 ## Microservices
+[Microservices Explained](Microservices/Microservices.md)
 [API Gateway](Microservices/API%20Gateway/API%20Gateway.md)  
 [CQRS](Microservices/CQRS/CQRS.md)  
-[SAGA](Microservices/SAGA/SAGA.md)
+[SAGA](Microservices/SAGA/SAGA.md)  
+
+## Middleware
+[Kafka](Middleware/Kafka/Kafka.md)
+[Kinesis](Middleware/Kinesis/Kinesis.md)
+[SQS](Middleware/SQS/SQS.md)
 
 ## Programming Languages and Frameworks
 [Bash](Programming%20Languages%20and%20Frameworks/BASH/BASH.md)  

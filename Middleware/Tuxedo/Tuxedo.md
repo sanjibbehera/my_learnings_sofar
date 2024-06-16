@@ -1,0 +1,2 @@
+## What is Oracle Tuxedo?
+Oracle Tuxedo is a middleware platform used for building and managing enterprise applications. It’s designed for developing, deploying, and managing mission-critical applications in a reliable, high-performance environment.
