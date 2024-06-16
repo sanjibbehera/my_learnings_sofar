@@ -21,8 +21,10 @@ To put the kernel in context, you can think of a Linux machine as having 3 layer
 - **The Linux kernel**: The core of the OS. (See? It’s right in the middle.) It’s software residing in memory that tells the CPU what to do.
 - **User processes**: These are the running programs that the kernel manages. User processes are what collectively make up user space. User processes are also known as just processes. The kernel also allows these processes and servers to communicate with each other (known as inter-process communication, or IPC).
 
+![Linux OS](../Images/linux_os.png)
+
 ## Linux OS Boot process
-![Linux OS Booting Process](Images/LinuxOSBootupProcess.webp)
+![Linux OS Booting Process](../Images/LinuxOSBootupProcess.webp)
 
 - Step 1 - When we turn on the power, BIOS (Basic Input/Output System) or UEFI (Unified Extensible Firmware Interface) firmware is loaded from non-volatile memory, and executes POST (Power On Self Test)
 - Step 2 - BIOS/UEFI detects the devices connected to the system, including CPU, RAM, and storage.
@@ -32,3 +34,52 @@ To put the kernel in context, you can think of a Linux machine as having 3 layer
 - Step 6 - systemd activates the default. target unit by default when the system boots. Other analysis units are executed as well.
 - Step 7 - The system runs a set of startup scripts and configure the environment.
 - Step 8 - The users are presented with a login window. The system is now ready.
+
+## Files and Folders permissions in Linux
+
+
+## What is Shell and types of shell in Linux
+
+
+## RAID in Linux
+
+## LVM
+
+## Networking in Linux
+
+## Process Management in Linux
+
+## What is Inode?
+
+## Namespaces
+Linux namespaces are a powerful feature of the Linux kernel that provide a way to isolate and virtualize system resources for processes. They are one of the key technologies behind containerization, allowing multiple isolated instances of system resources to coexist on a single host. Each namespace provides a different type of resource isolation.  
+Here are the main types of Linux namespaces:
+- Mount Namespace (mnt):
+  - Isolates the set of mounted filesystem seen by processes.
+  - Processes in different mount namespaces can have different views of the filesystem structure.
+  - Changes to the filesystem (like mounting or unmounting) in one namespace do not affect other namespaces.
+- Process ID Namespace (pid):
+  - Isolates the process ID number space.
+  - Processes in different PID namespaces can have the same PID.
+  - The init process in a PID namespace has PID 1 within that namespace, allowing for process tree isolation.
+- Network Namespace (net):
+  - Isolates network-related resources such as network interfaces, IP addresses, routing tables, and firewall rules.
+  - Each network namespace has its own network stack, providing full network isolation between namespaces.
+- User Namespace (user):
+  - Isolates user and group ID number spaces.
+  - Allows a process to have different UID and GID mappings inside and outside the namespace.
+  - Provides a mechanism for privilege separation, where processes can have root privileges within the namespace but not on the host.
+- IPC Namespace (ipc):
+  - Isolates inter-process communication resources, such as System V IPC objects (message queues, semaphores, shared memory) and POSIX message queues.
+  - Ensures that IPC objects in one namespace are not visible or accessible from other namespaces.
+- UTS Namespace (uts):
+  - Isolates the system identifiers such as the hostname and the NIS domain name.
+  - Processes in different UTS namespaces can have different hostnames.
+- Control Group Namespace (cgroup):
+  - Isolates the view of the cgroup hierarchy.
+  - Processes in different cgroup namespaces can have different views of the cgroup hierarchy, even if they share the same underlying control groups.
+
+## Understanding cgroups
+**cgroups** are a Linux kernel feature that enable the management and partitioning of system resources by controlling the resources for a collection of processes. Administrators can use cgroups to allocate resources, set limits, and prioritize processes.  
+Different types of available cgroups include CPU cgroup, memory cgroup, block I/O cgroup, and device cgroup.  
+While cgroups are not explicitly designed for security, they play a crucial role in controlling and monitoring the resource usage of processes.

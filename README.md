@@ -20,6 +20,7 @@ This is Github repository of my learnings in different tech, softwares, database
 [Protocols](Best%20Practices/Protocols/Protocols.md)  
 [Tech Lingos](Best%20Practices/Tech%20Lingos.md)  
 [Linux OS](Best%20Practices/OS/LinuxOS.md)  
+[Object Oriented Patterns for NodeJS](Best%20Practices/Design%20Patterns/Object%20Oriented%20Design%20Patterns%20for%20NodeJS.md)  
 
 ## AWS Cloud Computing
 [Application Integration in AWS](AWS%20Cloud%20Computing/AWS%20Application%20Integration.md)  
@@ -36,6 +37,8 @@ This is Github repository of my learnings in different tech, softwares, database
 [ArgoCD](Containers/ArgoCD/ArgoCD.md)  
 [App Runner](Containers/App%20Runner/App%20Runner.md)  
 [App2Container](Containers/App2Container/App2Container.md)  
+[CloudMap](Containers/CloudMap/CloudMap.md)  
+[Docker Study Guide](Containers/Docker/Docker.md)  
 [ECS Study Guide](Containers/ECS/ECS.md)  
 [EKS Study Guide](Containers/EKS/EKS.md)  
 [Service Mesh Istio Study Guide](Containers/Istio/Istio.md)   
