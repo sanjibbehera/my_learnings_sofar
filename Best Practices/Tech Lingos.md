@@ -125,3 +125,5 @@ Causes:
   - Deadlock Situations
   - Improper Resource Allocation
   - Denial of Service (DoS) Attacks
+
+- **hot sharding problem**: 
