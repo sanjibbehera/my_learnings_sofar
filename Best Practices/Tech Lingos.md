@@ -85,6 +85,9 @@ Disadvantages:
     - No security between threads.  
     - One thread can stomp on another thread's data.
     - If one thread blocks, all threads in task block.
+- **Request Collapsing**: 
+- **Request Hedging**: 
+- **Request Coalescing**:
 
 
 ## Challenges or Problems or Bottlenecks
