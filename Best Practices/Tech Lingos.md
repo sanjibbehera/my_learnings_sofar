@@ -68,6 +68,7 @@
 - **Database Replication**: Data is copied from one database server to another. This ensures data availability and reliability, especially in distributed systems.
 - **Intentional Redundancy**: This is deliberately implemented to enhance data availability, reliability, and performance. Examples include RAID configurations, database replication, and backup systems.
 - **Unintentional Redundancy**: This occurs due to poor database design or data management practices. Examples include duplicate records in a database or repeated data across different tables without normalization.
+- **salt the passwords**: According to OWASP guidelines, “a salt is a unique, randomly generated string that is added to each password as part of the hashing process”.
 
 ## Miscellaneous
 - **Reactive Systems**: A systems that are Responsive, Resilient, Elastic and Message Driven. They are are more flexible, loosely-coupled and scalable.  
@@ -130,3 +131,4 @@ Causes:
   - Denial of Service (DoS) Attacks
 
 - **hot sharding problem**: 
+- **rainbow tables**:
