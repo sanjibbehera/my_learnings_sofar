@@ -44,13 +44,13 @@
     Captures and restores an object’s internal state, allowing it to be restored to a previous state.
     - **Observer Pattern**:  
     Defines a dependency between objects, ensuring that when one object changes state, all its dependents are notified and updated automatically.
-    - State Pattern:  
+    - **State Pattern**:  
     Allows an object to change its behavior when its internal state changes, enabling cleaner, more maintainable conditional logic.
-    - Strategy Pattern:  
+    - **Strategy Pattern**:  
     Defines a family of algorithms, encapsulates each one and makes them interchangeable. Clients can choose an algorithm from this family without modifying their code.
-    - Template Method Pattern:  
+    - **Template Method Pattern**:  
     Defines the structure of an algorithm in a superclass but lets subclasses override specific steps of the algorithm.
-    - Visitor Pattern:  
+    - **Visitor Pattern**:  
     Separates an algorithm from an object structure, allowing new operations to be added without modifying the objects themselves.
 - SOLID Principles
 - Different Software Architectures
